@@ -13,6 +13,7 @@
 		1A6DC82D26A993CA0095628C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DC82B26A993CA0095628C /* Main.storyboard */; };
 		1A6DC82F26A993CF0095628C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DC82E26A993CF0095628C /* Assets.xcassets */; };
 		1A6DC83226A993CF0095628C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DC83026A993CF0095628C /* LaunchScreen.storyboard */; };
+		1A949F8526A9965C00FC2996 /* ScratchImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A949F8426A9965C00FC2996 /* ScratchImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1A6DC82E26A993CF0095628C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A6DC83126A993CF0095628C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A6DC83326A993CF0095628C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A949F8426A9965C00FC2996 /* ScratchImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1A6DC82726A993CA0095628C /* SceneDelegate.swift */,
 				1A6DC82926A993CA0095628C /* ViewController.swift */,
 				1A6DC82B26A993CA0095628C /* Main.storyboard */,
+				1A949F8426A9965C00FC2996 /* ScratchImageView.swift */,
 				1A6DC82E26A993CF0095628C /* Assets.xcassets */,
 				1A6DC83026A993CF0095628C /* LaunchScreen.storyboard */,
 				1A6DC83326A993CF0095628C /* Info.plist */,
@@ -140,6 +143,7 @@
 				1A6DC82A26A993CA0095628C /* ViewController.swift in Sources */,
 				1A6DC82626A993CA0095628C /* AppDelegate.swift in Sources */,
 				1A6DC82826A993CA0095628C /* SceneDelegate.swift in Sources */,
+				1A949F8526A9965C00FC2996 /* ScratchImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

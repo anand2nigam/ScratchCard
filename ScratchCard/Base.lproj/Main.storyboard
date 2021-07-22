@@ -19,11 +19,11 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ojG-QC-NAr">
                                 <rect key="frame" x="107" y="253" width="200" height="200"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YkB-LG-kdx">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="couponImage" translatesAutoresizingMaskIntoConstraints="NO" id="YkB-LG-kdx" customClass="ScratchImageView" customModule="ScratchCard" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.67843137254901964" green="0.84705882352941175" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="YkB-LG-kdx" firstAttribute="centerY" secondItem="ojG-QC-NAr" secondAttribute="centerY" id="L5h-Vj-Klb"/>
                                     <constraint firstAttribute="width" constant="200" id="Snz-l1-5Eq"/>
@@ -41,6 +41,9 @@
                             <constraint firstItem="ojG-QC-NAr" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-100" id="wbk-3w-gdR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="scratchImageView" destination="YkB-LG-kdx" id="HSj-1c-aEF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -48,6 +51,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="couponImage" width="499" height="497"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
