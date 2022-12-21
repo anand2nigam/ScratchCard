@@ -1,6 +1,6 @@
 # ScratchCard
 
-Implement a scratch card like Phonepe and GooglePay in native swift in a very simple way like below
+Implement a scratch card like Phonepe or GooglePay or Amazon Rewards in native swift. Checkout the end result below
 
 ![](scratch_card.gif)
 
